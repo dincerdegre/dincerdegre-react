@@ -1,0 +1,45 @@
+.devImageContainer {
+  width: 100%;
+  height: auto;
+}
+
+.devImageContainer img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 50rem;
+  padding: 0.7rem;
+  background-color: #fff;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2) !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  .devImageContainer img {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .devImageContainer img {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .devImageContainer img {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .devImageContainer img {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 281px) {
+  .devImageContainer img {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .devImageContainer img {
+    width: 65%;
+  }
+}

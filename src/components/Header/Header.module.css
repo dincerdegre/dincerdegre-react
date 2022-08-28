@@ -1,0 +1,75 @@
+.headerTransparent {
+  background-color: transparent;
+}
+
+.headerColored {
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(155, 155, 155, 0.1);
+}
+
+.headerTransparent h1,
+.headerColored h1 {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: 900;
+}
+
+.headerTransparent h1 a,
+.headerColored h1 a {
+  color: #161a1d;
+  text-decoration: none;
+}
+
+.headerTransparent h1 a:hover,
+.headerColored h1 a:hover {
+  color: #161a1da4;
+  text-decoration: none;
+}
+
+.headerLine {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .logoText {
+    width: 100%;
+  }
+  .headerTransparent h1 a,
+  .headerColored h1 a {
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .logoText {
+    width: 100%;
+  }
+  .headerTransparent h1 a,
+  .headerColored h1 a {
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 281px) {
+  .logoText {
+    width: 100%;
+  }
+  .headerTransparent h1 a,
+  .headerColored h1 a {
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .logoText {
+    width: 100%;
+  }
+  .headerTransparent h1 a,
+  .headerColored h1 a {
+    display: block;
+    text-align: center;
+  }
+}

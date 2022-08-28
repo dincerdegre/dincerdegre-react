@@ -1,0 +1,197 @@
+/*
+Version: 2022
+Author: Dincer Degre
+Author URI: https://www.dincerdegre.com
+*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0 auto;
+  margin: 0 auto;
+  background: transparent url(./assets/images/back.png) repeat-x top left;
+}
+
+.clear {
+  clear: both;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  z-index: 999;
+  transition: all 0.4s ease;
+}
+
+.footer {
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #1f1f25;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.typed-cursor {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #219bf3;
+}
+h2 span {
+  padding: 0;
+  margin: 0;
+  line-height: 3rem;
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1260px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+  .row {
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+  .row {
+    display: block;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 281px) {
+  .container {
+    max-width: 450px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+  .row {
+    display: block;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .container {
+    max-width: 280px;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 3rem;
+  }
+  .row {
+    display: block;
+  }
+}

@@ -1,0 +1,40 @@
+.firstSentence {
+  padding-left: 0.15rem;
+  line-height: 4.5rem;
+  color: #1f1f25;
+}
+.lastSentence {
+  margin: 0;
+  padding: 0.7rem 0 0 0.2rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  color: #219bf3;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .firstSentence {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 281px) {
+  .firstSentence {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .lastSentence {
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .firstSentence {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .lastSentence {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}

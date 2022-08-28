@@ -1,0 +1,12 @@
+.indexCard,.portfolioCard {
+    padding:8rem 0;
+}
+
+.aboutCard {
+    padding:3rem 0;
+}
+
+.portfolioCard {
+    background-color: #f8f9fc;
+    padding:3rem 0 0 0;
+}

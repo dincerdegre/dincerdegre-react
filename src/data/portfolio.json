@@ -1,0 +1,58 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "category": "Web Design",
+      "title": "Calculation and Unit Conversion Tools",
+      "slug": "senhesapla",
+      "image": "/images/portfolio/portfolio-senhesapla.png",
+      "alt": "senhesapla",
+      "tags": ["nextjs","nodejs","react"]
+    },
+    {
+      "id": "2",
+      "category": "Web Design",
+      "title": "Blog Site",
+      "slug": "ilgisel",
+      "image": "/images/portfolio/portfolio-ilgisel.png",
+      "alt": "ilgisel",
+      "tags": ["php","wordpress"]
+    },
+    {
+      "id": "3",
+      "category": "App",
+      "title": "Tax Calculator",
+      "slug": "kdvhesaplamapro",
+      "image": "/images/portfolio/portfolio-kdvhesaplamapro.png",
+      "alt": "kdvhesaplamapro",
+      "tags": ["android","java"]
+    },
+    {
+      "id": "4",
+      "category": "App",
+      "title": "Length Converter",
+      "slug": "lengthconverter",
+      "image": "/images/portfolio/portfolio-lengthconverter.png",
+      "alt": "lengthconverter",
+      "tags": ["android","kotlin"]
+    },
+    {
+      "id": "5",
+      "category": "Web Design",
+      "title": "Calculator Blog",
+      "slug": "hesaplator",
+      "image": "/images/portfolio/portfolio-hesaplator.png",
+      "alt": "hesaplator",
+      "tags": ["php","jquery","wordpress"]
+    },
+    {
+      "id": "6",
+      "category": "Web Design",
+      "title": "Unit Conversion Tools",
+      "slug": "calculatoryou",
+      "image": "/images/portfolio/portfolio-calculatoryou.png",
+      "alt": "calculatoryou",
+      "tags": ["nextjs","nodejs","react"]
+    }
+  ]
+}

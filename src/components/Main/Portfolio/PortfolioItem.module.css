@@ -1,0 +1,92 @@
+.portfolioItemContainer {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0 0.5rem 4rem 0.5rem;
+  }
+  .portfolioItem {
+    display: block;
+    box-sizing: border-box;
+  }
+  .portfolioItemThumb {
+    display: block;
+  }
+  .portfolioItemThumb img {
+    display: block;
+    border-radius: 0.4rem;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 2rem rgba(78, 78, 78, 0.2) !important;
+  }
+  .portfolioItemInfo {
+    padding: 0.8rem 0;
+  }
+  .portfolioItemInfo p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .portfolioItemInfo h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .tagsItem {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    color:#219bf3;
+  }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .portfolioItemContainer {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 0.5rem 4rem 0.5rem;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .portfolioItemContainer {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 0.5rem 4rem 0.5rem;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .portfolioItemContainer {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 0 4rem 0;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 281px) {
+    .portfolioItemContainer {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 0 1.6rem 0;
+  }
+  .portfolioItemInfo p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  .portfolioItemInfo h4 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+    .portfolioItemContainer {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 0 1rem 0;
+      }
+      .portfolioItemInfo p {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+      }
+      .portfolioItemInfo h4 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+      }
+}
+
+  

@@ -1,0 +1,87 @@
+@media only screen and (min-width: 1200px) {
+  .cardImageColumn {
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+  .cardInfoColumn {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .cardImageColumn,
+  .cardInfoColumn {
+    margin: 4rem 0;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .cardImageColumn,
+  .cardInfoColumn {
+    margin: 4rem 0;
+  }
+  .cardImageColumn {
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+  .cardInfoColumn {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .cardImageColumn,
+  .cardInfoColumn {
+    margin: 0 auto;
+  }
+  .cardImageColumn {
+    max-width: 90%;
+    padding-top: 2rem;
+  }
+  .cardInfoColumn {
+    max-width: 90%;
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .cardImageColumn,
+  .cardInfoColumn {
+    margin: 4rem 0;
+    margin: 0 auto;
+  }
+  .cardImageColumn {
+    max-width: 90%;
+    padding-top: 2rem;
+  }
+  .cardInfoColumn {
+    max-width: 90%;
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 281px) {
+  .cardImageColumn,
+  .cardInfoColumn {
+    margin: 4rem 0;
+    margin: 0 auto;
+  }
+  .cardImageColumn {
+    max-width: 90%;
+    padding-top: 2rem;
+  }
+  .cardInfoColumn {
+    max-width: 90%;
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .cardImageColumn,
+  .cardInfoColumn {
+    margin: 4rem 0;
+    margin: 0 auto;
+  }
+  .cardImageColumn {
+    max-width: 90%;
+    padding-top: 1rem;
+  }
+  .cardInfoColumn {
+    max-width: 90%;
+    padding-top: 1rem;
+  }
+}
